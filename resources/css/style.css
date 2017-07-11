@@ -1,6 +1,6 @@
 * {
   font-family: Helvetica;
-  font-size: 22px;
+
   color: seashell;
   background-color: black;
   opacity: 0.9
@@ -42,6 +42,7 @@ div {
 .menu {
   width: 500px;
   height: 69px;
+  font-size: 22px;
   flex: 1;
   justify-content: flex-end;
   display: inline-flex;
@@ -56,5 +57,31 @@ span {
 
  a {
    padding-top: 15px;
+}
 
+.mission {
+
+}
+
+.mission-image img {
+  display: block;
+  padding-top: 75px;
+  padding-left: 65px;
+  width: 1200px;
+  height: 700px;
+  text-align: center;
+}
+
+.statement {
+
+  text-align: center;
+  background-color: black;
+  height: 100px;
+  width: 1200px;
+  padding-left: 65px;
+
+}
+
+h2, h4 {
+  color: seashell;
 }
