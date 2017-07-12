@@ -31,6 +31,7 @@ div {
   display: flex;
   align-items: right;
   border-bottom: 1px solid seashell;
+  z-index: 5;
 }
 
 .logo {
@@ -60,25 +61,28 @@ span {
 }
 
 .mission {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    align-items: center;
+    padding-top: 350px;
+    padding-left: 0px;
+    width: 1200px;
+    height: 500px;
+
 
 }
 
-.mission-image img {
-  display: block;
-  padding-top: 75px;
-  padding-left: 65px;
-  width: 1200px;
-  height: 700px;
-  text-align: center;
+.flex-statement {
+  display: flex;
 }
 
 .statement {
-
+  align-items: center;
+  flex-wrap: wrap;
   text-align: center;
   background-color: black;
   height: 100px;
   width: 1200px;
-  padding-left: 65px;
+
 
 }
 
