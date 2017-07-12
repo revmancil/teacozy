@@ -1,9 +1,7 @@
 * {
   font-family: Helvetica;
-
   color: seashell;
   background-color: black;
-  opacity: 0.9
 }
 
 header {
@@ -19,7 +17,7 @@ header {
 img {
   padding-left: 10px;
   height: 50px;
-  padding-top: 9.5px;
+  padding-top: 20px;
   display: flex;
 }
 
@@ -42,7 +40,7 @@ div {
 
 .menu {
   width: 500px;
-  height: 69px;
+  height: 95px;
   font-size: 22px;
   flex: 1;
   justify-content: flex-end;
@@ -57,18 +55,20 @@ span {
 }
 
  a {
-   padding-top: 15px;
+   padding-top: 20px;
+}
+
+.main {
+  padding: 69px;
 }
 
 .mission {
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
     align-items: center;
     padding-top: 350px;
-    padding-left: 0px;
     width: 1200px;
-    height: 500px;
-
-
+    height: 450px;
+    margin: auto;
 }
 
 .flex-statement {
@@ -76,16 +76,45 @@ span {
 }
 
 .statement {
-  align-items: center;
+justify-content: center;
   flex-wrap: wrap;
   text-align: center;
   background-color: black;
   height: 100px;
   width: 1200px;
-
-
 }
 
 h2, h4 {
   color: seashell;
+}
+
+.tea-section {
+  font-family: Helvetica;
+}
+
+.tea-section h2, h4 {
+  text-align: center;
+}
+
+.tea-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div {
+  display: block;
+}
+
+.tea-image img {
+  padding: 5px;
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+}
+
+.tea-image span {
+  font-family: Helvetica;
+  font-size: 22px;
 }
